@@ -1,0 +1,202 @@
+/* ||||||||| HEADER SECTION |||||||||| */
+
+.header-logo {
+    width: 25%;
+}
+
+/* |||| SHOP SECTION |||| */
+
+.red-element-container {
+    max-width: 86px;
+}
+
+.red-element {
+    width: 100%;
+}
+
+.shop-title {
+    font-family: 'Gotham-Book';
+    font-size: calc(1.4rem + .9vw);
+    color: #535861;
+}
+
+.shop-title-uppercase {
+    font-family: 'Gotham-Light';
+    font-size: calc(2rem + 1.5vw);
+    color: #535861;
+}
+
+.text-title-two {
+    font-size: calc(1.6rem + 1.1vw);
+    color: #535861;
+}
+
+.whatsapp-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.whatsappa-btn-box {
+    background: transparent;
+    border: none;
+    width: 75%;
+    max-width: 520px;
+}
+
+.whatsappa-btn-box:hover {
+    opacity: 0.75;
+}
+
+/* ||||||| FORM SECTION ||||||  */
+
+.form-section {
+    margin-bottom: 5rem;
+}
+
+.form-title {
+    font-family: 'Gotham-Book';
+    color: #7e8289;
+    font-size: calc(1.1rem + .7vw);
+}
+
+.form-title-lowercase {
+    font-family: 'Gotham-Book';
+    color: #7e8289;
+    font-size: calc(1.1rem + .6vw);
+}
+
+.submit-form-content {
+    width: 90%;
+    margin: auto;
+}
+
+.form-group label {
+    font-family: 'Gotham-Medium';
+    color: #535861;
+    text-transform: uppercase;
+    font-size: calc(.7rem + .4vw);
+}
+
+.form-group input, .form-group textarea {
+    border: 1px solid #535861;
+    border-radius: 0;
+}
+
+.button-link {
+    background-color: #535861;
+    width: 20%;
+    color: white;
+    font-family: 'Gotham-Medium';
+    border: 1px solid #535861;
+    font-size: calc(.7rem + .4vw);
+    padding: 3px;
+    max-width: 90px;
+}
+
+.button-link:hover {
+    background-color: #26282b;
+}
+
+
+/* ||||||| FOOTER SECTION ||||||  */
+
+.blue-band-footer {
+    background: #0066b3 !important;
+}
+
+.footer-last-section {
+    position: relative;
+}
+
+.logo-footer-section {
+    position: absolute;
+    z-index: 1;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    max-width: 100px;
+}
+
+
+/* |||| MEDIA QUERY'S |||| */
+
+@media (min-width: 1300px) {
+    .blue-band-footer {
+        height: 170px !important;
+        background: #0066b3 !important;
+    }
+    .logo-footer {
+        min-width: 300px !important;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1299px) {
+    .blue-band-footer {
+        height: 150px !important;
+    }
+    .logo-footer {
+        min-width: 250px !important;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1099px) {
+    .blue-band-footer {
+        height: 110px !important;
+            background: #0066b3 !important;
+    }
+    .logo-footer {
+        min-width: 190px !important;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .blue-band-footer {
+        height: 100px !important;
+            background: #0066b3 !important;
+    }
+    .logo-footer {
+        min-width: 160px !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 699px) {
+    .logo-footer {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 699px) {
+    .shop-title {
+        font-size: calc(1rem + .7vw);
+    }
+    
+    .shop-title-uppercase {
+        font-size: calc(1.4rem + .9vw);
+    }
+    .text-title-two{
+        font-size: calc(1rem + .7vw);
+    }
+    .form-title {
+        font-size: calc(.9rem + .5vw);
+    }
+    .form-title-lowercase {
+        font-size: calc(.9rem + .5vw);
+    }
+    .form-group label {
+        font-size: calc(.6rem + .3vw);
+    }
+    .blue-band-footer {
+        height: 80px !important;
+        background: #0066b3 !important;
+    }
+}
+
+@media (max-width: 412px) {
+    .blue-band-footer {
+        height: 50px !important;
+        background: #0066b3 !important;
+    }
+}
